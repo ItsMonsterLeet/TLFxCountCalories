@@ -1,0 +1,307 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	
+}
+
+ul,
+ol,
+li{
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	
+}
+
+/*header======================================================================================================== */
+
+.header{
+    min-height: 250px;
+    margin-bottom: 70px;
+}
+
+.cont-bg{
+    max-width: 100%;
+    background: url(../img/header/Group1.svg) no-repeat;
+}
+
+.header {
+}
+
+.block {
+
+}
+
+.logo-block{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    margin-top: 55px;
+}
+
+.menu__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.menu__list {
+
+}
+.menu__item {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*header======================================================================================================== */
+
+/*main========================================================================================================== */
+
+.you_are_what_you_eat {
+    margin-bottom: 200px;
+}
+
+.eat_block {
+}
+
+.min_title {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.max_title {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 151px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.eat_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.k_button {
+}
+
+.main_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    width: 250px;
+    height: 57px;
+}
+
+.button_main {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.main-img{
+    padding-left: 100px;
+}
+
+.callories {
+    margin-bottom: 70px;
+}
+.row {
+}
+
+.callories_title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.callories_block {
+}
+.col-6 {
+}
+.callories_title_min {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.eat_text {
+}
+.read_text {
+    text-decoration: none;
+    color: #FA7268;
+}
+
+
+.tabl {
+}
+
+.tabl__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 1px solid #000000;
+    margin-bottom: 0px;
+    background-color: #FA7268;
+}
+
+.tabl__body__input{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid #000000;
+    margin-bottom: 0px;
+    background-color: #FA7268;
+    padding-left: 200px;
+}
+
+.str1{
+    padding-left: 10px;
+}
+
+.str2{
+    padding-left: 40px;
+}
+
+.str3{
+    padding-left: 60px;
+}
+
+.str4{
+    padding-left: 65px;
+}
+
+.str5{
+    padding-left: 41px;
+}
+
+.str6{
+    padding-left: 14px;
+}
+
+
+input{
+    width: 100px;
+}
+
+.tabl__list {
+}
+
+.tabl__item {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    background-color: #FA7268;
+}
+
+.tabl_btn {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+.save {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #000000;
+    
+}
+
+.save_box{
+
+}
+
+/*main========================================================================================================== */
+
+.f{
+    margin-bottom: 60px;
+}
+
+.coperait {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0px;
+}
